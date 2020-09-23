@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="COVID19" time="57.426" tests="5" failures="1" errors="0">
+   <testsuite name="COVID19" tests="5" failures="1" errors="0" time="57.426" timestamp="2020-09-23 14:26:22" hostname="martin - Martin-PC" id="Test Suites/COVID19">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\martin\\Katalon Studio\\FIND_LOGIN_PAGE\\Reports\\20200923_142614\\COVID19\\20200923_142614"/>
+         <property name="logFiles" value="C:\\Users\\martin\\Katalon Studio\\FIND_LOGIN_PAGE\\Reports\\20200923_142614\\COVID19\\20200923_142614\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\martin\\Katalon Studio\\FIND_LOGIN_PAGE\\Reports\\20200923_142614\\COVID19\\20200923_142614\\1600846006259.png, C:\\Users\\martin\\Katalon Studio\\FIND_LOGIN_PAGE\\Reports\\20200923_142614\\COVID19\\20200923_142614\\1600846006605.png"/>
+         <property name="hostName" value="martin - Martin-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="10.8.1.2"/>
+         <property name="sessionId" value="b4085cea3fe5cd7bee42a80e50ce8139"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_001" time="13.66" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-09-23 14:26:22 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_001: Test Cases/SIGN IN PAGE TEST/TC_UI_001
+
+2020-09-23 14:26:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:26:23 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 14:26:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 14:26:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 14:26:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 14:26:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 14:26:30 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:26:33 - [MESSAGE][PASSED] - Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:26:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:26:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 14:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:26:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:26:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/img_logo")): Object 'Object Repository/Page_diagnostics/img_logo' is visible
+
+2020-09-23 14:26:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/img_logo' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA" time="10.578" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at TC_UI_002_GDA.run(TC_UI_002_GDA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600845974832.run(TempTestSuite1600845974832.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-23 14:26:36 - [TEST_CASE][FAILED] - Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA: Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at TC_UI_002_GDA.run(TC_UI_002_GDA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600845974832.run(TempTestSuite1600845974832.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-23 14:26:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:26:36 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 14:26:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 14:26:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 14:26:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 14:26:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 14:26:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 14:26:41 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:26:42 - [MESSAGE][PASSED] - Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:26:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:26:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 14:26:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:26:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:26:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/div_GDA Marketplace")): Object 'Object Repository/Page_diagnostics/div_GDA Marketplace' is visible
+
+2020-09-23 14:26:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/div_GDA Marketplace' is visible
+
+2020-09-23 14:26:45 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Page_diagnostics/div_GDA Marketplace"), "GDA Marketplace"): Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at TC_UI_002_GDA.run(TC_UI_002_GDA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600845974832.run(TempTestSuite1600845974832.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-09-23 14:26:46 - [MESSAGE][FAILED] - Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at TC_UI_002_GDA.run(TC_UI_002_GDA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600845974832.run(TempTestSuite1600845974832.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\martin\\Katalon Studio\\FIND_LOGIN_PAGE\\Reports\\20200923_142614\\COVID19\\20200923_142614\\1600846006259.png]]
+
+2020-09-23 14:26:46 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at TC_UI_002_GDA.run(TC_UI_002_GDA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600845974832.run(TempTestSuite1600845974832.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\martin\\Katalon Studio\\FIND_LOGIN_PAGE\\Reports\\20200923_142614\\COVID19\\20200923_142614\\1600846006605.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-23 14:26:36 - [TEST_CASE][FAILED] - Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA: Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at TC_UI_002_GDA.run(TC_UI_002_GDA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600845974832.run(TempTestSuite1600845974832.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_003" time="10.833" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-09-23 14:26:46 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_003: Test Cases/SIGN IN PAGE TEST/TC_UI_003
+
+2020-09-23 14:26:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:26:47 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 14:26:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 14:26:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 14:26:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 14:26:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 14:26:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 14:26:51 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:26:53 - [MESSAGE][PASSED] - Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:26:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:26:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 14:26:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:26:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:26:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/a_Sign in as Buyer")): Object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is visible
+
+2020-09-23 14:26:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is visible
+
+2020-09-23 14:26:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_diagnostics/a_Sign in as Buyer"), "SIGN IN AS BUYER"): Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' are matched.
+
+2020-09-23 14:26:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' are matched.
+
+2020-09-23 14:26:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_diagnostics/a_Sign in as Buyer")): Object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is clickable
+
+2020-09-23 14:26:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is clickable
+
+2020-09-23 14:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Sign in as Buyer")): Object: 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is clicked on
+
+2020-09-23 14:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is clicked on
+
+2020-09-23 14:26:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/h4_Buyer Sign in")): Object 'Object Repository/Page_diagnostics/h4_Buyer Sign in' is visible
+
+2020-09-23 14:26:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/h4_Buyer Sign in' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_004" time="11.067" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-09-23 14:26:57 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_004: Test Cases/SIGN IN PAGE TEST/TC_UI_004
+
+2020-09-23 14:26:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:26:58 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 14:26:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 14:26:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 14:26:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 14:26:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 14:27:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 14:27:02 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:27:04 - [MESSAGE][PASSED] - Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:27:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:27:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 14:27:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:27:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:27:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/a_Sign in as Seller")): Object 'Object Repository/Page_diagnostics/a_Sign in as Seller' is visible
+
+2020-09-23 14:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Sign in as Seller' is visible
+
+2020-09-23 14:27:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_diagnostics/a_Sign in as Seller"), "SIGN IN AS SELLER"): Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Sign in as Seller' are matched.
+
+2020-09-23 14:27:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Sign in as Seller' are matched.
+
+2020-09-23 14:27:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_diagnostics/a_Sign in as Seller")): Object 'Object Repository/Page_diagnostics/a_Sign in as Seller' is clickable
+
+2020-09-23 14:27:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Sign in as Seller' is clickable
+
+2020-09-23 14:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Sign in as Seller")): Object: 'Object Repository/Page_diagnostics/a_Sign in as Seller' is clicked on
+
+2020-09-23 14:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Sign in as Seller' is clicked on
+
+2020-09-23 14:27:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/h4_Seller Sign in")): Object 'Object Repository/Page_diagnostics/h4_Seller Sign in' is visible
+
+2020-09-23 14:27:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/h4_Seller Sign in' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_005" time="9.916" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_005" status="PASSED">
+         <system-out><![CDATA[2020-09-23 14:27:08 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_005: Test Cases/SIGN IN PAGE TEST/TC_UI_005
+
+2020-09-23 14:27:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:27:09 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 14:27:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 14:27:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 14:27:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 14:27:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 14:27:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 14:27:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:27:15 - [MESSAGE][PASSED] - Navigate to 'http://covid19sandbox.test-arcadier.com/' successfully
+
+2020-09-23 14:27:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 14:27:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 14:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 14:27:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 14:27:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/div_Interested in joining the marketplace")): Object 'Object Repository/Page_diagnostics/div_Interested in joining the marketplace' is visible
+
+2020-09-23 14:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/div_Interested in joining the marketplace' is visible
+
+2020-09-23 14:27:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_diagnostics/div_Interested in joining the marketplace"), "Interested in joining the marketplace?"): Actual text and expected text of test object 'Object Repository/Page_diagnostics/div_Interested in joining the marketplace' are matched.
+
+2020-09-23 14:27:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_diagnostics/div_Interested in joining the marketplace' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-23 14:26:22 - [TEST_SUITE][FAILED] - COVID19: Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at TC_UI_002_GDA.run(TC_UI_002_GDA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600845974832.run(TempTestSuite1600845974832.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-09-23 14:26:22 - [TEST_SUITE][FAILED] - COVID19: Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at TC_UI_002_GDA.run(TC_UI_002_GDA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600845974832.run(TempTestSuite1600845974832.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'COVID-19
+Diagnostic Tests eCatalogue' and expected text 'GDA Marketplace' of test object 'Object Repository/Page_diagnostics/div_GDA Marketplace' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

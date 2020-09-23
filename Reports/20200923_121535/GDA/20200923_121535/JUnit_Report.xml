@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GDA" time="67.34" tests="6" failures="0" errors="0">
+   <testsuite name="GDA" tests="6" failures="0" errors="0" time="67.34" timestamp="2020-09-23 12:15:42" hostname="martin - Martin-PC" id="Test Suites/GDA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\martin\\Katalon Studio\\FIND_LOGIN_PAGE\\Reports\\20200923_121535\\GDA\\20200923_121535"/>
+         <property name="logFiles" value="C:\\Users\\martin\\Katalon Studio\\FIND_LOGIN_PAGE\\Reports\\20200923_121535\\GDA\\20200923_121535\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="martin - Martin-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="10.8.1.2"/>
+         <property name="sessionId" value="c976700ba4e1db3023325785e6ca756c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_001" time="13.094" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-09-23 12:15:43 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_001: Test Cases/SIGN IN PAGE TEST/TC_UI_001
+
+2020-09-23 12:15:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:15:43 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 12:15:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 12:15:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 12:15:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 12:15:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 12:15:49 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:15:53 - [MESSAGE][PASSED] - Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:15:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:15:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 12:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:15:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:15:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/img_logo")): Object 'Object Repository/Page_diagnostics/img_logo' is visible
+
+2020-09-23 12:15:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/img_logo' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA" time="9.255" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA" status="PASSED">
+         <system-out><![CDATA[2020-09-23 12:15:56 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA: Test Cases/SIGN IN PAGE TEST/TC_UI_002_GDA
+
+2020-09-23 12:15:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:15:56 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 12:15:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 12:15:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 12:15:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 12:15:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 12:16:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 12:16:00 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:02 - [MESSAGE][PASSED] - Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 12:16:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/div_Marketplace Name")): Object 'Object Repository/Page_diagnostics/div_Marketplace Name' is visible
+
+2020-09-23 12:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/div_Marketplace Name' is visible
+
+2020-09-23 12:16:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_diagnostics/div_Marketplace Name"), "GDA Marketplace"): Actual text and expected text of test object 'Object Repository/Page_diagnostics/div_Marketplace Name' are matched.
+
+2020-09-23 12:16:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_diagnostics/div_Marketplace Name' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_003" time="10.251" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-09-23 12:16:05 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_003: Test Cases/SIGN IN PAGE TEST/TC_UI_003
+
+2020-09-23 12:16:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:05 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 12:16:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 12:16:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 12:16:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 12:16:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 12:16:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 12:16:09 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:11 - [MESSAGE][PASSED] - Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 12:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/a_Sign in as Buyer")): Object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is visible
+
+2020-09-23 12:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is visible
+
+2020-09-23 12:16:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_diagnostics/a_Sign in as Buyer"), "SIGN IN AS BUYER"): Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' are matched.
+
+2020-09-23 12:16:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' are matched.
+
+2020-09-23 12:16:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_diagnostics/a_Sign in as Buyer")): Object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is clickable
+
+2020-09-23 12:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is clickable
+
+2020-09-23 12:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Sign in as Buyer")): Object: 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is clicked on
+
+2020-09-23 12:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Sign in as Buyer' is clicked on
+
+2020-09-23 12:16:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/h4_Buyer Sign in")): Object 'Object Repository/Page_diagnostics/h4_Buyer Sign in' is visible
+
+2020-09-23 12:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/h4_Buyer Sign in' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_004" time="10.438" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-09-23 12:16:15 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_004: Test Cases/SIGN IN PAGE TEST/TC_UI_004
+
+2020-09-23 12:16:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:16 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 12:16:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 12:16:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 12:16:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 12:16:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 12:16:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 12:16:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:21 - [MESSAGE][PASSED] - Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 12:16:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/a_Sign in as Seller")): Object 'Object Repository/Page_diagnostics/a_Sign in as Seller' is visible
+
+2020-09-23 12:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Sign in as Seller' is visible
+
+2020-09-23 12:16:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_diagnostics/a_Sign in as Seller"), "SIGN IN AS SELLER"): Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Sign in as Seller' are matched.
+
+2020-09-23 12:16:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Sign in as Seller' are matched.
+
+2020-09-23 12:16:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_diagnostics/a_Sign in as Seller")): Object 'Object Repository/Page_diagnostics/a_Sign in as Seller' is clickable
+
+2020-09-23 12:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Sign in as Seller' is clickable
+
+2020-09-23 12:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Sign in as Seller")): Object: 'Object Repository/Page_diagnostics/a_Sign in as Seller' is clicked on
+
+2020-09-23 12:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Sign in as Seller' is clicked on
+
+2020-09-23 12:16:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/h4_Seller Sign in")): Object 'Object Repository/Page_diagnostics/h4_Seller Sign in' is visible
+
+2020-09-23 12:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/h4_Seller Sign in' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_005" time="9.303" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_005" status="PASSED">
+         <system-out><![CDATA[2020-09-23 12:16:26 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_005: Test Cases/SIGN IN PAGE TEST/TC_UI_005
+
+2020-09-23 12:16:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:26 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 12:16:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 12:16:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 12:16:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 12:16:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 12:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 12:16:30 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:32 - [MESSAGE][PASSED] - Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 12:16:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/div_Interested in joining the marketplace")): Object 'Object Repository/Page_diagnostics/div_Interested in joining the marketplace' is visible
+
+2020-09-23 12:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/div_Interested in joining the marketplace' is visible
+
+2020-09-23 12:16:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_diagnostics/div_Interested in joining the marketplace"), "Interested in joining the marketplace?"): Actual text and expected text of test object 'Object Repository/Page_diagnostics/div_Interested in joining the marketplace' are matched.
+
+2020-09-23 12:16:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_diagnostics/div_Interested in joining the marketplace' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN IN PAGE TEST/TC_UI_006_GDA" time="13.828" classname="Test Cases/SIGN IN PAGE TEST/TC_UI_006_GDA" status="PASSED">
+         <system-out><![CDATA[2020-09-23 12:16:35 - [TEST_CASE][PASSED] - Test Cases/SIGN IN PAGE TEST/TC_UI_006_GDA: Test Cases/SIGN IN PAGE TEST/TC_UI_006_GDA
+
+2020-09-23 12:16:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:35 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Login Page: Test Cases/UTILITIES/Open Login Page
+
+2020-09-23 12:16:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 12:16:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 12:16:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 12:16:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 12:16:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 12:16:39 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:41 - [MESSAGE][PASSED] - Navigate to 'http://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-23 12:16:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_diagnostics/a_Homepage_Sign In"), 0): Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 12:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is visible
+
+2020-09-23 12:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Homepage_Sign In")): Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Homepage_Sign In' is clicked on
+
+2020-09-23 12:16:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Login Page' successfully
+
+2020-09-23 12:16:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/a_Click here to let us know")): Object 'Object Repository/Page_diagnostics/a_Click here to let us know' is visible
+
+2020-09-23 12:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Click here to let us know' is visible
+
+2020-09-23 12:16:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_diagnostics/a_Click here to let us know"), "CLICK HERE TO LET US KNOW!"): Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Click here to let us know' are matched.
+
+2020-09-23 12:16:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_diagnostics/a_Click here to let us know' are matched.
+
+2020-09-23 12:16:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_diagnostics/a_Click here to let us know")): Object 'Object Repository/Page_diagnostics/a_Click here to let us know' is clickable
+
+2020-09-23 12:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/a_Click here to let us know' is clickable
+
+2020-09-23 12:16:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_diagnostics/a_Click here to let us know")): Object: 'Object Repository/Page_diagnostics/a_Click here to let us know' is clicked on
+
+2020-09-23 12:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_diagnostics/a_Click here to let us know' is clicked on
+
+2020-09-23 12:16:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_diagnostics/iframe_SIGN IN_JotFormIFrame-201611346099453")): Object 'Object Repository/Page_diagnostics/iframe_SIGN IN_JotFormIFrame-201611346099453' is visible
+
+2020-09-23 12:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_diagnostics/iframe_SIGN IN_JotFormIFrame-201611346099453' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-23 12:15:42 - [TEST_SUITE][PASSED] - GDA: Test Cases/SIGN IN PAGE TEST/TC_UI_006_GDA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
