@@ -17,5 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('UTILITIES/Open Login Page-COVID19'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementPresent(findTestObject('Page_diagnostics/img_logo_covid'), 0)
+
 WebUI.verifyElementVisible(findTestObject('Page_diagnostics/img_logo_covid'))
 

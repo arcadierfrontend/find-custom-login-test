@@ -19,3 +19,5 @@ WebUI.callTestCase(findTestCase('UTILITIES/Open Login Page-GDA'), [:], FailureHa
 
 WebUI.verifyElementVisible(findTestObject('Page_diagnostics/img_logo'))
 
+WebUI.waitForElementPresent(findTestObject('Page_diagnostics/img_logo'), 0)
+
