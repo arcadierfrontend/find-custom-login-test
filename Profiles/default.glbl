@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'covid19sandbox.test-arcadier.com'</initValue>
+      <initValue>'covid19staging.test-arcadier.com'</initValue>
       <name>otherurl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

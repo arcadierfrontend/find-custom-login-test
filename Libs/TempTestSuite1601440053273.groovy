@@ -32,8 +32,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/martinrahardja/Documents/Github/find-custom-login-test/Reports/20200930_100600/COVID19/20200930_100600/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/martinrahardja/Documents/Github/find-custom-login-test/Reports/20200930_112733/COVID19/20200930_112733/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/COVID19', suiteProperties, new File("/Users/martinrahardja/Documents/Github/find-custom-login-test/Reports/20200930_100600/COVID19/20200930_100600/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/COVID19', suiteProperties, new File("/Users/martinrahardja/Documents/Github/find-custom-login-test/Reports/20200930_112733/COVID19/20200930_112733/testCaseBinding"))
