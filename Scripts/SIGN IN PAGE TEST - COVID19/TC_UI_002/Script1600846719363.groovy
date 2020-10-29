@@ -19,5 +19,5 @@ WebUI.callTestCase(findTestCase('UTILITIES/Open Login Page-COVID19'), [:], Failu
 
 WebUI.verifyElementVisible(findTestObject('Page_diagnostics/div_COVID-19  Diagnostic Tests eCatalogue'))
 
-WebUI.verifyElementText(findTestObject('Page_diagnostics/div_COVID-19  Diagnostic Tests eCatalogue'), 'COVID-19')
+WebUI.getText(findTestObject('Page_diagnostics/div_COVID-19  Diagnostic Tests eCatalogue'), FailureHandling.STOP_ON_FAILURE)
 

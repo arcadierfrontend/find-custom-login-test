@@ -20,6 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
+WebUI.maximizeWindow()
+
 WebUI.waitForElementVisible(findTestObject('Page_diagnostics/a_Homepage_Sign In'), 0)
 
 WebUI.click(findTestObject('Page_diagnostics/a_Homepage_Sign In'))
